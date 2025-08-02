@@ -1,0 +1,78 @@
+
+.course-wrapper {
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* Heading */
+.course-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Add Course Form */
+.course-form {
+  border-radius: 16px;
+  box-shadow: 20px;
+  padding: 20px;
+}
+
+/* Course Card */
+.course-card {
+
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card content */
+.course-card .card-body p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.course-card .card-body strong {
+  color: #111;
+}
+
+/* Enroll Button */
+.btn-enroll {
+  background-color: #0d6efd;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.btn-enroll:hover {
+  background-color: #0b5ed7;
+}
+
+/* Enrolled Button */
+.btn-enrolled {
+  background-color: #eafaf1;
+  color: #198754;
+  border: 1px solid #198754;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+/* Submit Course Button */
+.btn-submit {
+  background-color: #28a745;
+  border-radius: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
